@@ -13,7 +13,7 @@ const seriesConfig = [
       { name: "Lausitzring", start: "2026-05-22", end: "2026-05-24", venue: "Deutschland", kind: "circuit2race", infoUrl: "https://www.dtm.com/de/events" },
       { name: "Zandvoort", start: "2026-06-05", end: "2026-06-07", venue: "Niederlande", kind: "circuit2race", infoUrl: "https://www.dtm.com/de/events" },
       { name: "Norisring", start: "2026-07-03", end: "2026-07-05", venue: "Deutschland", kind: "circuit2race", infoUrl: "https://www.dtm.com/de/events" },
-      { name: "Nurburgring", start: "2026-08-07", end: "2026-08-09", venue: "Deutschland", kind: "circuit2race", infoUrl: "https://www.dtm.com/de/events" },
+      { name: "Nürburgring", start: "2026-08-07", end: "2026-08-09", venue: "Deutschland", kind: "circuit2race", infoUrl: "https://www.dtm.com/de/events" },
       { name: "Sachsenring", start: "2026-08-21", end: "2026-08-23", venue: "Deutschland", kind: "circuit2race", infoUrl: "https://www.dtm.com/de/events" },
       { name: "Red Bull Ring", start: "2026-09-11", end: "2026-09-13", venue: "Osterreich", kind: "circuit2race", infoUrl: "https://www.dtm.com/de/events" },
       { name: "Hockenheimring", start: "2026-10-02", end: "2026-10-04", venue: "Deutschland", kind: "circuit2race", infoUrl: "https://www.dtm.com/de/events" }
@@ -26,6 +26,7 @@ const seriesConfig = [
     watchLinks: [
       { label: "IMSA TV", url: "https://www.imsa.com/tvlive/" },
       { label: "NBC Sports (USA)", url: "https://www.nbcsports.com/motorsports" },
+      { label: "IMSA Youtube", url: "https://www.youtube.com/@imsaofficial" },
       { label: "Peacock (USA)", url: "https://www.peacocktv.com/sports/motorsports" }
     ],
     events: [
@@ -48,7 +49,7 @@ const seriesConfig = [
     color: "#d4a017",
     watchLinks: [
       { label: "Supercars TV Guide", url: "https://www.supercars.com/tv-schedule" },
-      { label: "Supercars YouTube", url: "https://www.youtube.com/@supercars" },
+      { label: "Supercars YouTube", url: "https://www.youtube.com/@SupercarsChampionship" },
       { label: "Kayo Sports (AU)", url: "https://kayosports.com.au/" },
       { label: "Fox Sports AU", url: "https://www.foxsports.com.au/motorsport/supercars" }
     ],
@@ -161,14 +162,16 @@ const seriesConfig = [
       { label: "YouTube", url: "https://www.youtube.com/@VLNOFFICIAL" }
     ],
     events: [
-      { name: "NLS 1", start: "2026-03-21", end: "2026-03-22", venue: "Nurburgring", kind: "weekend", infoUrl: "https://www.nuerburgring-langstrecken-serie.de/rennen/" },
-      { name: "NLS 2", start: "2026-04-11", end: "2026-04-12", venue: "Nurburgring", kind: "weekend", infoUrl: "https://www.nuerburgring-langstrecken-serie.de/rennen/" },
-      { name: "NLS 3", start: "2026-05-30", end: "2026-05-31", venue: "Nurburgring", kind: "weekend", infoUrl: "https://www.nuerburgring-langstrecken-serie.de/rennen/" },
-      { name: "NLS 4", start: "2026-07-04", end: "2026-07-05", venue: "Nurburgring", kind: "weekend", infoUrl: "https://www.nuerburgring-langstrecken-serie.de/rennen/" },
-      { name: "NLS 5", start: "2026-08-29", end: "2026-08-30", venue: "Nurburgring", kind: "weekend", infoUrl: "https://www.nuerburgring-langstrecken-serie.de/rennen/" },
-      { name: "NLS 6", start: "2026-09-26", end: "2026-09-27", venue: "Nurburgring", kind: "weekend", infoUrl: "https://www.nuerburgring-langstrecken-serie.de/rennen/" },
-      { name: "NLS 7", start: "2026-10-17", end: "2026-10-18", venue: "Nurburgring", kind: "weekend", infoUrl: "https://www.nuerburgring-langstrecken-serie.de/rennen/" },
-      { name: "NLS 8", start: "2026-11-07", end: "2026-11-08", venue: "Nurburgring", kind: "weekend", infoUrl: "https://www.nuerburgring-langstrecken-serie.de/rennen/" }
+      { name: "NLS 1", start: "2026-03-21", end: "2026-03-22", venue: "Nürburgring", kind: "weekend", infoUrl: "https://www.nuerburgring-langstrecken-serie.de/rennen/" },
+      { name: "NLS 2", start: "2026-04-11", end: "2026-04-12", venue: "Nürburgring", kind: "weekend", infoUrl: "https://www.nuerburgring-langstrecken-serie.de/rennen/" },
+      { name: "24h Qualifiers", start: "2026-05-16", end: "2026-05-17", venue: "Nürburgring", kind: "endurance", infoUrl: "https://www.24h-rennen.de/qualifiers/" },
+      { name: "NLS 3", start: "2026-05-30", end: "2026-05-31", venue: "Nürburgring", kind: "weekend", infoUrl: "https://www.nuerburgring-langstrecken-serie.de/rennen/" },
+      { name: "24h Rennen Nürburgring", start: "2026-06-18", end: "2026-06-21", venue: "Nürburgring", kind: "endurance", infoUrl: "https://www.24h-rennen.de/" },
+      { name: "NLS 4", start: "2026-07-04", end: "2026-07-05", venue: "Nürburgring", kind: "weekend", infoUrl: "https://www.nuerburgring-langstrecken-serie.de/rennen/" },
+      { name: "NLS 5", start: "2026-08-29", end: "2026-08-30", venue: "Nürburgring", kind: "weekend", infoUrl: "https://www.nuerburgring-langstrecken-serie.de/rennen/" },
+      { name: "NLS 6", start: "2026-09-26", end: "2026-09-27", venue: "Nürburgring", kind: "weekend", infoUrl: "https://www.nuerburgring-langstrecken-serie.de/rennen/" },
+      { name: "NLS 7", start: "2026-10-17", end: "2026-10-18", venue: "Nürburgring", kind: "weekend", infoUrl: "https://www.nuerburgring-langstrecken-serie.de/rennen/" },
+      { name: "NLS 8", start: "2026-11-07", end: "2026-11-08", venue: "Nürburgring", kind: "weekend", infoUrl: "https://www.nuerburgring-langstrecken-serie.de/rennen/" }
     ]
   },
   {
@@ -197,7 +200,7 @@ const sessionTimeByEvent = {
     Lausitzring: { Training: "10:55", Qualifying: "09:15", "Rennen 1": "13:30", "Rennen 2": "13:30" },
     Zandvoort: { Training: "11:15", Qualifying: "09:35", "Rennen 1": "13:35", "Rennen 2": "13:35" },
     Norisring: { Training: "10:45", Qualifying: "09:10", "Rennen 1": "13:10", "Rennen 2": "13:10" },
-    Nurburgring: { Training: "11:10", Qualifying: "09:25", "Rennen 1": "13:30", "Rennen 2": "13:30" },
+    Nürburgring: { Training: "11:10", Qualifying: "09:25", "Rennen 1": "13:30", "Rennen 2": "13:30" },
     Sachsenring: { Training: "10:50", Qualifying: "09:05", "Rennen 1": "13:00", "Rennen 2": "13:00" },
     "Red Bull Ring": { Training: "11:20", Qualifying: "09:40", "Rennen 1": "13:35", "Rennen 2": "13:35" },
     Hockenheimring: { Training: "11:00", Qualifying: "09:20", "Rennen 1": "13:30", "Rennen 2": "13:30" }
@@ -276,7 +279,9 @@ const sessionTimeByEvent = {
   nls: {
     "NLS 1": { Training: "08:30", Qualifying: "09:50", Rennen: "12:00" },
     "NLS 2": { Training: "08:30", Qualifying: "09:50", Rennen: "12:00" },
+    "24h Qualifiers": { Training: "08:30", Qualifying: "09:30", "Qualifying Rennen": "13:00" },
     "NLS 3": { Training: "08:30", Qualifying: "09:45", Rennen: "12:00" },
+    "24h Rennen Nürburgring": { Training: "13:00", Qualifying: "20:00", Rennen: "16:00" },
     "NLS 4": { Training: "08:30", Qualifying: "09:45", Rennen: "12:00" },
     "NLS 5": { Training: "08:30", Qualifying: "09:50", Rennen: "12:00" },
     "NLS 6": { Training: "08:30", Qualifying: "09:50", Rennen: "12:00" },
@@ -290,6 +295,21 @@ const sessionTimeByEvent = {
     "4 Hours Of Spa": { Training: "10:00", Qualifying: "13:00", Rennen: "11:30" },
     "4 Hours Of Silverstone": { Training: "10:05", Qualifying: "13:10", Rennen: "11:30" },
     "4 Hours Of Portimao": { Training: "10:15", Qualifying: "13:20", Rennen: "11:30" }
+  }
+};
+
+const raceLengthByEvent = {
+  nls: {
+    "NLS 1": "4 Stunden",
+    "NLS 2": "4 Stunden",
+    "24h Qualifiers": "6 Stunden",
+    "NLS 3": "4 Stunden",
+    "24h Rennen Nürburgring": "24 Stunden",
+    "NLS 4": "4 Stunden",
+    "NLS 5": "4 Stunden",
+    "NLS 6": "4 Stunden",
+    "NLS 7": "4 Stunden",
+    "NLS 8": "4 Stunden"
   }
 };
 
@@ -314,6 +334,155 @@ const loadMoreStep = 30;
 let upcomingVisibleCount = initialUpcomingCount;
 
 todayLabel.textContent = `Heute: ${formatDate(todayIso)}`;
+
+const seriesTimeZones = {
+  dtm: "Europe/Berlin",
+  imsa: "America/New_York",
+  supercars: "Australia/Sydney",
+  wec: "Europe/Paris",
+  wrc: "Europe/Paris",
+  tcrwt: "Europe/Paris",
+  tcreurope: "Europe/Berlin",
+  nls: "Europe/Berlin",
+  elms: "Europe/Paris"
+};
+
+const eventTimeZoneOverrides = {
+  imsa: {
+    "Grand Prix Of Long Beach": "America/Los_Angeles",
+    "Monterey SportsCar Championship": "America/Los_Angeles",
+    "Chevrolet Grand Prix": "America/Toronto",
+    "IMSA SportsCar Weekend": "America/Chicago"
+  },
+  supercars: {
+    "Taupo Super440": "Pacific/Auckland",
+    "Christchurch Super440": "Pacific/Auckland",
+    "Tasmania Super440": "Australia/Hobart",
+    "Darwin Triple Crown": "Australia/Darwin",
+    "Townsville 500": "Australia/Brisbane",
+    "Perth Super440": "Australia/Perth",
+    "Ipswich Super440": "Australia/Brisbane",
+    "The Bend 500": "Australia/Adelaide",
+    "Gold Coast 500": "Australia/Brisbane",
+    "Adelaide Grand Final": "Australia/Adelaide"
+  },
+  wec: {
+    "Qatar 1812 km": "Asia/Qatar",
+    "6 Hours Of Imola": "Europe/Rome",
+    "6 Hours Of Spa-Francorchamps": "Europe/Brussels",
+    "6 Hours Of Sao Paulo": "America/Sao_Paulo",
+    "Lone Star Le Mans": "America/Chicago",
+    "6 Hours Of Fuji": "Asia/Tokyo",
+    "Bapco Energies 8 Hours Of Bahrain": "Asia/Bahrain"
+  },
+  wrc: {
+    "Rallye Monte-Carlo": "Europe/Paris",
+    "Rally Sweden": "Europe/Stockholm",
+    "Safari Rally Kenya": "Africa/Nairobi",
+    "Rally Islas Canarias": "Atlantic/Canary",
+    "Rally Portugal": "Europe/Lisbon",
+    "Rally Italia Sardegna": "Europe/Rome",
+    "Acropolis Rally": "Europe/Athens",
+    "Rally Estonia": "Europe/Tallinn",
+    "Secto Rally Finland": "Europe/Helsinki",
+    "Rally Paraguay": "America/Asuncion",
+    "Rally Chile Biobio": "America/Santiago",
+    "Central European Rally": "Europe/Berlin",
+    "Rally Japan": "Asia/Tokyo",
+    "Rally Saudi Arabia": "Asia/Riyadh"
+  },
+  tcrwt: {
+    "Mexico City": "America/Mexico_City",
+    Vallelunga: "Europe/Rome",
+    "Spa-Francorchamps": "Europe/Brussels",
+    Interlagos: "America/Sao_Paulo",
+    "Inje Speedium": "Asia/Seoul",
+    "Macau Guia": "Asia/Macau"
+  },
+  tcreurope: {
+    Portimao: "Europe/Lisbon",
+    Spa: "Europe/Brussels",
+    Hockenheim: "Europe/Berlin",
+    Misano: "Europe/Rome",
+    Barcelona: "Europe/Madrid",
+    Monza: "Europe/Rome"
+  },
+  elms: {
+    "4 Hours Of Barcelona": "Europe/Madrid",
+    "4 Hours Of Le Castellet": "Europe/Paris",
+    "4 Hours Of Imola": "Europe/Rome",
+    "4 Hours Of Spa": "Europe/Brussels",
+    "4 Hours Of Silverstone": "Europe/London",
+    "4 Hours Of Portimao": "Europe/Lisbon"
+  }
+};
+
+function getEventTimeZone(seriesId, eventName) {
+  return eventTimeZoneOverrides[seriesId]?.[eventName] || seriesTimeZones[seriesId] || "UTC";
+}
+
+function getTimeZoneParts(date, timeZone) {
+  const formatter = new Intl.DateTimeFormat("en-US", {
+    timeZone,
+    year: "numeric",
+    month: "2-digit",
+    day: "2-digit",
+    hour: "2-digit",
+    minute: "2-digit",
+    hourCycle: "h23"
+  });
+
+  const parts = formatter.formatToParts(date);
+  const values = {};
+  for (const part of parts) {
+    if (part.type !== "literal") {
+      values[part.type] = part.value;
+    }
+  }
+
+  return {
+    year: Number(values.year),
+    month: Number(values.month),
+    day: Number(values.day),
+    hour: Number(values.hour),
+    minute: Number(values.minute)
+  };
+}
+
+function getDateFromTimeZone(isoDate, hhmm, timeZone) {
+  const [year, month, day] = isoDate.split("-").map(Number);
+  const [hour, minute] = hhmm.split(":").map(Number);
+  const utcGuess = Date.UTC(year, month - 1, day, hour, minute);
+  const zonedParts = getTimeZoneParts(new Date(utcGuess), timeZone);
+  const zonedAsUtc = Date.UTC(
+    zonedParts.year,
+    zonedParts.month - 1,
+    zonedParts.day,
+    zonedParts.hour,
+    zonedParts.minute
+  );
+  return new Date(utcGuess - (zonedAsUtc - utcGuess));
+}
+
+function formatSessionTimeForUser(isoDate, localTime, timeZone) {
+  if (!localTime || localTime === "TBA") {
+    return "TBA";
+  }
+
+  if (!/^\d{2}:\d{2}$/.test(localTime)) {
+    return localTime;
+  }
+
+  try {
+    const sessionDate = getDateFromTimeZone(isoDate, localTime, timeZone);
+    return sessionDate.toLocaleTimeString("de-DE", {
+      hour: "2-digit",
+      minute: "2-digit"
+    });
+  } catch {
+    return localTime;
+  }
+}
 
 function toIsoDate(date) {
   const year = date.getFullYear();
@@ -343,6 +512,9 @@ function getSessionTime(seriesId, eventName, sessionTitle) {
 
 function getSessionType(sessionTitle) {
   const title = sessionTitle.toLowerCase();
+  if (title.includes("qualifying rennen")) {
+    return "race";
+  }
   if (title.includes("qualifying")) {
     return "qualifying";
   }
@@ -352,7 +524,61 @@ function getSessionType(sessionTitle) {
   return "training";
 }
 
+function parseRaceLengthFromName(eventName) {
+  const hourMatch = eventName.match(/(\d+)\s*(hours?|h)\b/i);
+  if (hourMatch) {
+    return `${hourMatch[1]} Stunden`;
+  }
+
+  const wordHourMatch = eventName.match(/\b(four|six|eight|twelve)\s+hours?\b/i);
+  if (wordHourMatch) {
+    const hourWords = { four: 4, six: 6, eight: 8, twelve: 12 };
+    return `${hourWords[wordHourMatch[1].toLowerCase()]} Stunden`;
+  }
+
+  const kmMatch = eventName.match(/(\d{3,4})\s*km\b/i);
+  if (kmMatch) {
+    return `${kmMatch[1]} km`;
+  }
+
+  return "";
+}
+
+function getRaceLength(seriesId, eventName, sessionTitle, eventKind) {
+  if (getSessionType(sessionTitle) !== "race") {
+    return "";
+  }
+
+  const configuredLength = raceLengthByEvent[seriesId]?.[eventName];
+  if (configuredLength) {
+    return configuredLength;
+  }
+
+  const parsedLength = parseRaceLengthFromName(eventName);
+  if (parsedLength) {
+    return parsedLength;
+  }
+
+  if (eventKind === "circuit2race") {
+    return "ca. 55 Minuten";
+  }
+
+  if (eventKind === "rally") {
+    return "mehrere Wertungsprüfungen";
+  }
+
+  return "TBA";
+}
+
 function buildSessions(event, seriesId) {
+  if (event.name === "24h Qualifiers") {
+    return [
+      { title: "Training", date: event.start, time: getSessionTime(seriesId, event.name, "Training") },
+      { title: "Qualifying", date: addDays(event.start, 1), time: getSessionTime(seriesId, event.name, "Qualifying") },
+      { title: "Qualifying Rennen", date: event.end, time: getSessionTime(seriesId, event.name, "Qualifying Rennen") }
+    ];
+  }
+
   if (event.kind === "circuit2race") {
     return [
       { title: "Training", date: event.start, time: getSessionTime(seriesId, event.name, "Training") },
@@ -390,6 +616,7 @@ function flattenSessions() {
       const isLiveEvent = todayIso >= event.start && todayIso <= event.end;
 
       for (const session of eventSessions) {
+        const sessionType = getSessionType(session.title);
         sessions.push({
           seriesId: series.id,
           seriesName: series.name,
@@ -397,9 +624,15 @@ function flattenSessions() {
           eventName: event.name,
           venue: event.venue,
           sessionTitle: session.title,
-          sessionType: getSessionType(session.title),
+          sessionType,
           sessionDate: session.date,
-          sessionTime: session.time,
+          sessionTime: formatSessionTimeForUser(
+            session.date,
+            session.time,
+            getEventTimeZone(series.id, event.name)
+          ),
+          sessionTimeLocal: session.time,
+          raceLength: getRaceLength(series.id, event.name, session.title, event.kind),
           eventStart: event.start,
           eventEnd: event.end,
           isLiveEvent,
@@ -414,7 +647,7 @@ function flattenSessions() {
     if (a.sessionDate !== b.sessionDate) {
       return a.sessionDate.localeCompare(b.sessionDate);
     }
-    return a.sessionTime.localeCompare(b.sessionTime);
+    return a.sessionTimeLocal.localeCompare(b.sessionTimeLocal);
   });
 }
 
@@ -427,7 +660,7 @@ function cardTemplate(item) {
     <article class="card">
       <div class="badge" style="background:${item.color}">${item.seriesName}</div>
       <h3>${item.eventName}</h3>
-      <p class="meta">${item.sessionTitle} • ${formatDate(item.sessionDate)} • ${item.sessionTime} Uhr (Lokalzeit) • ${item.venue}</p>
+      <p class="meta">${item.sessionTitle} • ${formatDate(item.sessionDate)} • ${item.sessionTime} Uhr (deine Zeit)${item.raceLength ? ` • Rennlänge: ${item.raceLength}` : ""} • ${item.venue}</p>
       <p class="meta">Event: ${formatDate(item.eventStart)} bis ${formatDate(item.eventEnd)}</p>
       <div class="links">
         <a href="${item.infoUrl}" target="_blank" rel="noreferrer">Event-Infos</a>
