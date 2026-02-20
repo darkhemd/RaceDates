@@ -9,14 +9,14 @@ const seriesConfig = [
       { label: "ProSieben (DE)", url: "https://www.ran.de/sports/motorsport/dtm" }
     ],
     events: [
-      { name: "Oschersleben", start: "2026-04-24", end: "2026-04-26", venue: "Deutschland", kind: "circuit2race", infoUrl: "https://www.dtm.com/de/events" },
-      { name: "Lausitzring", start: "2026-05-22", end: "2026-05-24", venue: "Deutschland", kind: "circuit2race", infoUrl: "https://www.dtm.com/de/events" },
-      { name: "Zandvoort", start: "2026-06-05", end: "2026-06-07", venue: "Niederlande", kind: "circuit2race", infoUrl: "https://www.dtm.com/de/events" },
+      { name: "Red Bull Ring", start: "2026-04-24", end: "2026-04-26", venue: "Deutschland", kind: "circuit2race", infoUrl: "https://www.dtm.com/de/events" },
+      { name: "Zandvoort", start: "2026-05-22", end: "2026-05-24", venue: "Deutschland", kind: "circuit2race", infoUrl: "https://www.dtm.com/de/events" },
+      { name: "Lausitzring", start: "2026-06-19", end: "2026-06-21", venue: "Niederlande", kind: "circuit2race", infoUrl: "https://www.dtm.com/de/events" },
       { name: "Norisring", start: "2026-07-03", end: "2026-07-05", venue: "Deutschland", kind: "circuit2race", infoUrl: "https://www.dtm.com/de/events" },
-      { name: "Nürburgring", start: "2026-08-07", end: "2026-08-09", venue: "Deutschland", kind: "circuit2race", infoUrl: "https://www.dtm.com/de/events" },
-      { name: "Sachsenring", start: "2026-08-21", end: "2026-08-23", venue: "Deutschland", kind: "circuit2race", infoUrl: "https://www.dtm.com/de/events" },
-      { name: "Red Bull Ring", start: "2026-09-11", end: "2026-09-13", venue: "Osterreich", kind: "circuit2race", infoUrl: "https://www.dtm.com/de/events" },
-      { name: "Hockenheimring", start: "2026-10-02", end: "2026-10-04", venue: "Deutschland", kind: "circuit2race", infoUrl: "https://www.dtm.com/de/events" }
+      { name: "Oschersleben", start: "2026-07-24", end: "2026-07-26", venue: "Deutschland", kind: "circuit2race", infoUrl: "https://www.dtm.com/de/events" },
+      { name: "Nürburgring", start: "2026-08-14", end: "2026-08-16", venue: "Deutschland", kind: "circuit2race", infoUrl: "https://www.dtm.com/de/events" },
+      { name: "Sachsenring", start: "2026-09-11", end: "2026-09-13", venue: "Osterreich", kind: "circuit2race", infoUrl: "https://www.dtm.com/de/events" },
+      { name: "Hockenheimring", start: "2026-10-09", end: "2026-10-11", venue: "Deutschland", kind: "circuit2race", infoUrl: "https://www.dtm.com/de/events" }
     ]
   },
   {
@@ -33,7 +33,6 @@ const seriesConfig = [
       { name: "Rolex 24 At Daytona", start: "2026-01-22", end: "2026-01-25", venue: "Daytona", kind: "endurance", infoUrl: "https://www.imsa.com/weathertech/weathertech-2026-schedule/" },
       { name: "Mobil 1 Twelve Hours Of Sebring", start: "2026-03-18", end: "2026-03-21", venue: "Sebring", kind: "endurance", infoUrl: "https://www.imsa.com/weathertech/weathertech-2026-schedule/" },
       { name: "Grand Prix Of Long Beach", start: "2026-04-17", end: "2026-04-18", venue: "Long Beach", kind: "weekend", infoUrl: "https://www.imsa.com/weathertech/weathertech-2026-schedule/" },
-      { name: "Monterey SportsCar Championship", start: "2026-05-01", end: "2026-05-03", venue: "Laguna Seca", kind: "weekend", infoUrl: "https://www.imsa.com/weathertech/weathertech-2026-schedule/" },
       { name: "Detroit Grand Prix", start: "2026-05-29", end: "2026-05-30", venue: "Detroit", kind: "weekend", infoUrl: "https://www.imsa.com/weathertech/weathertech-2026-schedule/" },
       { name: "Sahlen's Six Hours Of The Glen", start: "2026-06-25", end: "2026-06-28", venue: "Watkins Glen", kind: "endurance", infoUrl: "https://www.imsa.com/weathertech/weathertech-2026-schedule/" },
       { name: "Chevrolet Grand Prix", start: "2026-07-10", end: "2026-07-12", venue: "Canadian Tire Motorsport Park", kind: "weekend", infoUrl: "https://www.imsa.com/weathertech/weathertech-2026-schedule/" },
@@ -55,18 +54,18 @@ const seriesConfig = [
     ],
     events: [
       { name: "Sydney 500", start: "2026-02-20", end: "2026-02-22", venue: "Sydney", kind: "weekend", infoUrl: "https://www.supercars.com/events" },
-      { name: "Melbourne SuperSprint", start: "2026-03-12", end: "2026-03-15", venue: "Melbourne", kind: "weekend", infoUrl: "https://www.supercars.com/events" },
+      { name: "Melbourne SuperSprint", start: "2026-03-05", end: "2026-03-08", venue: "Melbourne", kind: "weekend", infoUrl: "https://www.supercars.com/events" },
       { name: "Taupo Super440", start: "2026-04-10", end: "2026-04-12", venue: "Neuseeland", kind: "weekend", infoUrl: "https://www.supercars.com/events" },
       { name: "Christchurch Super440", start: "2026-04-17", end: "2026-04-19", venue: "Neuseeland", kind: "weekend", infoUrl: "https://www.supercars.com/events" },
-      { name: "Tasmania Super440", start: "2026-05-08", end: "2026-05-10", venue: "Tasmanien", kind: "weekend", infoUrl: "https://www.supercars.com/events" },
+      { name: "Tasmania Super440", start: "2026-05-22", end: "2026-05-24", venue: "Tasmanien", kind: "weekend", infoUrl: "https://www.supercars.com/events" },
       { name: "Darwin Triple Crown", start: "2026-06-19", end: "2026-06-21", venue: "Darwin", kind: "weekend", infoUrl: "https://www.supercars.com/events" },
       { name: "Townsville 500", start: "2026-07-10", end: "2026-07-12", venue: "Townsville", kind: "weekend", infoUrl: "https://www.supercars.com/events" },
-      { name: "Perth Super440", start: "2026-07-24", end: "2026-07-26", venue: "Perth", kind: "weekend", infoUrl: "https://www.supercars.com/events" },
-      { name: "Ipswich Super440", start: "2026-08-07", end: "2026-08-09", venue: "Queensland", kind: "weekend", infoUrl: "https://www.supercars.com/events" },
+      { name: "Perth Super440", start: "2026-07-31", end: "2026-08-02", venue: "Perth", kind: "weekend", infoUrl: "https://www.supercars.com/events" },
+      { name: "Ipswich Super440", start: "2026-08-21", end: "2026-08-23", venue: "Queensland", kind: "weekend", infoUrl: "https://www.supercars.com/events" },
       { name: "The Bend 500", start: "2026-09-11", end: "2026-09-13", venue: "Tailem Bend", kind: "endurance", infoUrl: "https://www.supercars.com/events" },
       { name: "Bathurst 1000", start: "2026-10-08", end: "2026-10-11", venue: "Mount Panorama", kind: "endurance", infoUrl: "https://www.supercars.com/events" },
       { name: "Gold Coast 500", start: "2026-10-23", end: "2026-10-25", venue: "Gold Coast", kind: "weekend", infoUrl: "https://www.supercars.com/events" },
-      { name: "Sandown 500", start: "2026-11-13", end: "2026-11-15", venue: "Sandown", kind: "endurance", infoUrl: "https://www.supercars.com/events" },
+      { name: "Sandown 500", start: "2026-11-06", end: "2026-11-08", venue: "Sandown", kind: "endurance", infoUrl: "https://www.supercars.com/events" },
       { name: "Adelaide Grand Final", start: "2026-11-26", end: "2026-11-29", venue: "Adelaide", kind: "weekend", infoUrl: "https://www.supercars.com/events" }
     ]
   },
@@ -103,17 +102,17 @@ const seriesConfig = [
       { name: "Rallye Monte-Carlo", start: "2026-01-22", end: "2026-01-25", venue: "Monaco/Frankreich", kind: "rally", infoUrl: "https://www.wrc.com/en/events" },
       { name: "Rally Sweden", start: "2026-02-12", end: "2026-02-15", venue: "Schweden", kind: "rally", infoUrl: "https://www.wrc.com/en/events" },
       { name: "Safari Rally Kenya", start: "2026-03-12", end: "2026-03-15", venue: "Kenia", kind: "rally", infoUrl: "https://www.wrc.com/en/events" },
+      { name: "Rally Croatia", start: "2026-04-10", end: "2026-04-12", venue: "Kroatien", kind: "rally", infoUrl: "https://www.wrc.com/en/events" },
       { name: "Rally Islas Canarias", start: "2026-04-23", end: "2026-04-26", venue: "Spanien", kind: "rally", infoUrl: "https://www.wrc.com/en/events" },
       { name: "Rally Portugal", start: "2026-05-07", end: "2026-05-10", venue: "Portugal", kind: "rally", infoUrl: "https://www.wrc.com/en/events" },
-      { name: "Rally Italia Sardegna", start: "2026-06-04", end: "2026-06-07", venue: "Italien", kind: "rally", infoUrl: "https://www.wrc.com/en/events" },
+      { name: "Rally Japan", start: "2026-05-28", end: "2026-05-31", venue: "Japan", kind: "rally", infoUrl: "https://www.wrc.com/en/events" },
       { name: "Acropolis Rally", start: "2026-06-25", end: "2026-06-28", venue: "Griechenland", kind: "rally", infoUrl: "https://www.wrc.com/en/events" },
       { name: "Rally Estonia", start: "2026-07-16", end: "2026-07-19", venue: "Estland", kind: "rally", infoUrl: "https://www.wrc.com/en/events" },
       { name: "Secto Rally Finland", start: "2026-07-30", end: "2026-08-02", venue: "Finnland", kind: "rally", infoUrl: "https://www.wrc.com/en/events" },
       { name: "Rally Paraguay", start: "2026-08-27", end: "2026-08-30", venue: "Paraguay", kind: "rally", infoUrl: "https://www.wrc.com/en/events" },
       { name: "Rally Chile Biobio", start: "2026-09-10", end: "2026-09-13", venue: "Chile", kind: "rally", infoUrl: "https://www.wrc.com/en/events" },
-      { name: "Central European Rally", start: "2026-10-15", end: "2026-10-18", venue: "Mitteleuropa", kind: "rally", infoUrl: "https://www.wrc.com/en/events" },
-      { name: "Rally Japan", start: "2026-11-05", end: "2026-11-08", venue: "Japan", kind: "rally", infoUrl: "https://www.wrc.com/en/events" },
-      { name: "Rally Saudi Arabia", start: "2026-11-26", end: "2026-11-29", venue: "Saudi-Arabien", kind: "rally", infoUrl: "https://www.wrc.com/en/events" }
+      { name: "Rally Italia Sardegna", start: "2026-10-01", end: "2026-10-04", venue: "Italien", kind: "rally", infoUrl: "https://www.wrc.com/en/events" },
+      { name: "Rally Saudi Arabia", start: "2026-11-11", end: "2026-11-14", venue: "Saudi-Arabien", kind: "rally", infoUrl: "https://www.wrc.com/en/events" }
     ]
   },
   {
@@ -126,30 +125,14 @@ const seriesConfig = [
       { label: "YouTube", url: "https://www.youtube.com/@tcrtv" }
     ],
     events: [
-      { name: "Mexico City", start: "2026-03-13", end: "2026-03-15", venue: "Mexiko", kind: "weekend", infoUrl: "https://www.fiatcrworldtour.com/calendar/" },
-      { name: "Vallelunga", start: "2026-05-08", end: "2026-05-10", venue: "Italien", kind: "weekend", infoUrl: "https://www.fiatcrworldtour.com/calendar/" },
-      { name: "Spa-Francorchamps", start: "2026-06-19", end: "2026-06-21", venue: "Belgien", kind: "weekend", infoUrl: "https://www.fiatcrworldtour.com/calendar/" },
-      { name: "Interlagos", start: "2026-07-17", end: "2026-07-19", venue: "Brasilien", kind: "weekend", infoUrl: "https://www.fiatcrworldtour.com/calendar/" },
+      { name: "Mexico City", start: "2026-04-23", end: "2026-04-25", venue: "Mexiko", kind: "weekend", infoUrl: "https://www.fiatcrworldtour.com/calendar/" },
+      { name: "Valencia", start: "2026-06-12", end: "2026-06-14", venue: "Spanien", kind: "weekend", infoUrl: "https://www.fiatcrworldtour.com/calendar/" },
+      { name: "Le Castellet", start: "2026-07-03", end: "2026-07-05", venue: "Frankreich", kind: "weekend", infoUrl: "https://www.fiatcrworldtour.com/calendar/" },
+      { name: "Villa Real", start: "2026-07-10", end: "2026-07-12", venue: "Portugal", kind: "weekend", infoUrl: "https://www.fiatcrworldtour.com/calendar/" },
       { name: "Inje Speedium", start: "2026-09-04", end: "2026-09-06", venue: "Sudkorea", kind: "weekend", infoUrl: "https://www.fiatcrworldtour.com/calendar/" },
-      { name: "Macau Guia", start: "2026-11-12", end: "2026-11-15", venue: "Macau", kind: "weekend", infoUrl: "https://www.fiatcrworldtour.com/calendar/" }
-    ]
-  },
-  {
-    id: "tcreurope",
-    name: "TCR Europe",
-    color: "#a61d24",
-    watchLinks: [
-      { label: "TCR Europe", url: "https://europe.tcr-series.com/" },
-      { label: "TCR TV", url: "https://www.tcr-series.tv/" },
-      { label: "YouTube", url: "https://www.youtube.com/@tcrtv" }
-    ],
-    events: [
-      { name: "Portimao", start: "2026-04-17", end: "2026-04-19", venue: "Portugal", kind: "weekend", infoUrl: "https://europe.tcr-series.com/calendar/" },
-      { name: "Spa", start: "2026-05-15", end: "2026-05-17", venue: "Belgien", kind: "weekend", infoUrl: "https://europe.tcr-series.com/calendar/" },
-      { name: "Hockenheim", start: "2026-06-12", end: "2026-06-14", venue: "Deutschland", kind: "weekend", infoUrl: "https://europe.tcr-series.com/calendar/" },
-      { name: "Misano", start: "2026-07-03", end: "2026-07-05", venue: "Italien", kind: "weekend", infoUrl: "https://europe.tcr-series.com/calendar/" },
-      { name: "Barcelona", start: "2026-09-18", end: "2026-09-20", venue: "Spanien", kind: "weekend", infoUrl: "https://europe.tcr-series.com/calendar/" },
-      { name: "Monza", start: "2026-10-09", end: "2026-10-11", venue: "Italien", kind: "weekend", infoUrl: "https://europe.tcr-series.com/calendar/" }
+      { name: "Chengdu", start: "2026-10-16", end: "2026-10-18", venue: "China", kind: "weekend", infoUrl: "https://www.fiatcrworldtour.com/calendar/" },
+      { name: "Chengdu", start: "2026-10-22", end: "2026-10-24", venue: "China", kind: "weekend", infoUrl: "https://www.fiatcrworldtour.com/calendar/" },
+      { name: "Macau Guia", start: "2026-11-22", end: "2026-11-24", venue: "Macau", kind: "weekend", infoUrl: "https://www.fiatcrworldtour.com/calendar/" }
     ]
   },
   {
@@ -164,9 +147,9 @@ const seriesConfig = [
     events: [
       { name: "NLS 1", start: "2026-03-21", end: "2026-03-22", venue: "Nürburgring", kind: "weekend", infoUrl: "https://www.nuerburgring-langstrecken-serie.de/rennen/" },
       { name: "NLS 2", start: "2026-04-11", end: "2026-04-12", venue: "Nürburgring", kind: "weekend", infoUrl: "https://www.nuerburgring-langstrecken-serie.de/rennen/" },
-      { name: "24h Qualifiers", start: "2026-05-16", end: "2026-05-17", venue: "Nürburgring", kind: "endurance", infoUrl: "https://www.24h-rennen.de/qualifiers/" },
+      { name: "24h Qualifiers", start: "2026-04-17", end: "2026-04-19", venue: "Nürburgring", kind: "endurance", infoUrl: "https://www.24h-rennen.de/qualifiers/" },
       { name: "NLS 3", start: "2026-05-30", end: "2026-05-31", venue: "Nürburgring", kind: "weekend", infoUrl: "https://www.nuerburgring-langstrecken-serie.de/rennen/" },
-      { name: "24h Rennen Nürburgring", start: "2026-06-18", end: "2026-06-21", venue: "Nürburgring", kind: "endurance", infoUrl: "https://www.24h-rennen.de/" },
+      { name: "24h Rennen Nürburgring", start: "2026-05-14", end: "2026-05-17", venue: "Nürburgring", kind: "endurance", infoUrl: "https://www.24h-rennen.de/" },
       { name: "NLS 4", start: "2026-07-04", end: "2026-07-05", venue: "Nürburgring", kind: "weekend", infoUrl: "https://www.nuerburgring-langstrecken-serie.de/rennen/" },
       { name: "NLS 5", start: "2026-08-29", end: "2026-08-30", venue: "Nürburgring", kind: "weekend", infoUrl: "https://www.nuerburgring-langstrecken-serie.de/rennen/" },
       { name: "NLS 6", start: "2026-09-26", end: "2026-09-27", venue: "Nürburgring", kind: "weekend", infoUrl: "https://www.nuerburgring-langstrecken-serie.de/rennen/" },
@@ -184,12 +167,12 @@ const seriesConfig = [
       { label: "YouTube", url: "https://www.youtube.com/@LeMansSeriesOfficial" }
     ],
     events: [
-      { name: "4 Hours Of Barcelona", start: "2026-04-03", end: "2026-04-05", venue: "Barcelona", kind: "endurance", infoUrl: "https://www.europeanlemansseries.com/en/calendar" },
+      { name: "4 Hours Of Barcelona", start: "2026-04-10", end: "2026-04-12", venue: "Barcelona", kind: "endurance", infoUrl: "https://www.europeanlemansseries.com/en/calendar" },
       { name: "4 Hours Of Le Castellet", start: "2026-05-01", end: "2026-05-03", venue: "Le Castellet", kind: "endurance", infoUrl: "https://www.europeanlemansseries.com/en/calendar" },
       { name: "4 Hours Of Imola", start: "2026-07-03", end: "2026-07-05", venue: "Imola", kind: "endurance", infoUrl: "https://www.europeanlemansseries.com/en/calendar" },
       { name: "4 Hours Of Spa", start: "2026-08-21", end: "2026-08-23", venue: "Spa", kind: "endurance", infoUrl: "https://www.europeanlemansseries.com/en/calendar" },
-      { name: "4 Hours Of Silverstone", start: "2026-09-18", end: "2026-09-20", venue: "Silverstone", kind: "endurance", infoUrl: "https://www.europeanlemansseries.com/en/calendar" },
-      { name: "4 Hours Of Portimao", start: "2026-10-16", end: "2026-10-18", venue: "Portimao", kind: "endurance", infoUrl: "https://www.europeanlemansseries.com/en/calendar" }
+      { name: "4 Hours Of Silverstone", start: "2026-09-11", end: "2026-09-13", venue: "Silverstone", kind: "endurance", infoUrl: "https://www.europeanlemansseries.com/en/calendar" },
+      { name: "4 Hours Of Portimao", start: "2026-10-08", end: "2026-10-10", venue: "Portimao", kind: "endurance", infoUrl: "https://www.europeanlemansseries.com/en/calendar" }
     ]
   }
 ];
@@ -268,14 +251,6 @@ const sessionTimeByEvent = {
     "Inje Speedium": { Training: "10:20", Qualifying: "12:40", Rennen: "15:00" },
     "Macau Guia": { Training: "08:30", Qualifying: "11:10", Rennen: "14:10" }
   },
-  tcreurope: {
-    Portimao: { Training: "10:05", Qualifying: "12:30", Rennen: "15:10" },
-    Spa: { Training: "10:25", Qualifying: "12:40", Rennen: "15:20" },
-    Hockenheim: { Training: "10:00", Qualifying: "12:15", Rennen: "14:50" },
-    Misano: { Training: "10:15", Qualifying: "12:35", Rennen: "15:05" },
-    Barcelona: { Training: "10:20", Qualifying: "12:20", Rennen: "14:45" },
-    Monza: { Training: "10:10", Qualifying: "12:25", Rennen: "14:55" }
-  },
   nls: {
     "NLS 1": { Training: "08:30", Qualifying: "09:50", Rennen: "12:00" },
     "NLS 2": { Training: "08:30", Qualifying: "09:50", Rennen: "12:00" },
@@ -342,7 +317,6 @@ const seriesTimeZones = {
   wec: "Europe/Paris",
   wrc: "Europe/Paris",
   tcrwt: "Europe/Paris",
-  tcreurope: "Europe/Berlin",
   nls: "Europe/Berlin",
   elms: "Europe/Paris"
 };
@@ -398,14 +372,6 @@ const eventTimeZoneOverrides = {
     Interlagos: "America/Sao_Paulo",
     "Inje Speedium": "Asia/Seoul",
     "Macau Guia": "Asia/Macau"
-  },
-  tcreurope: {
-    Portimao: "Europe/Lisbon",
-    Spa: "Europe/Brussels",
-    Hockenheim: "Europe/Berlin",
-    Misano: "Europe/Rome",
-    Barcelona: "Europe/Madrid",
-    Monza: "Europe/Rome"
   },
   elms: {
     "4 Hours Of Barcelona": "Europe/Madrid",
