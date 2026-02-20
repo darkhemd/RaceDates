@@ -297,6 +297,7 @@ const filterContainer = document.getElementById("series-filters");
 const sessionFilterContainer = document.getElementById("session-filters");
 const currentList = document.getElementById("current-list");
 const upcomingList = document.getElementById("upcoming-list");
+const loadMoreBtn = document.getElementById("load-more-btn");
 const todayLabel = document.getElementById("today-label");
 
 const today = new Date();
@@ -308,6 +309,9 @@ const sessionFilterConfig = [
   { id: "race", label: "Rennen" }
 ];
 let activeSessionTypes = new Set(sessionFilterConfig.map((entry) => entry.id));
+const initialUpcomingCount = 30;
+const loadMoreStep = 30;
+let upcomingVisibleCount = initialUpcomingCount;
 
 todayLabel.textContent = `Heute: ${formatDate(todayIso)}`;
 
@@ -439,7 +443,8 @@ function render() {
   const liveOrToday = filteredSessions.filter(
     (entry) => entry.isLiveEvent || entry.sessionDate === todayIso
   );
-  const upcoming = filteredSessions.filter((entry) => entry.sessionDate >= todayIso).slice(0, 30);
+  const allUpcoming = filteredSessions.filter((entry) => entry.sessionDate >= todayIso);
+  const upcoming = allUpcoming.slice(0, upcomingVisibleCount);
 
   currentList.innerHTML = liveOrToday.length
     ? liveOrToday.map(cardTemplate).join("")
@@ -448,6 +453,9 @@ function render() {
   upcomingList.innerHTML = upcoming.length
     ? upcoming.map(cardTemplate).join("")
     : `<p class="empty">Keine zukünftigen Termine in den ausgewählten Serien gefunden.</p>`;
+
+  const hasMoreUpcoming = allUpcoming.length > upcomingVisibleCount;
+  loadMoreBtn.style.display = hasMoreUpcoming ? "inline-block" : "none";
 }
 
 function renderFilters() {
@@ -467,6 +475,7 @@ function renderFilters() {
         activeSeries.add(series.id);
         button.classList.add("active");
       }
+      upcomingVisibleCount = initialUpcomingCount;
       render();
     });
     filterContainer.appendChild(button);
@@ -489,11 +498,17 @@ function renderSessionFilters() {
         activeSessionTypes.add(sessionType.id);
         button.classList.add("active");
       }
+      upcomingVisibleCount = initialUpcomingCount;
       render();
     });
     sessionFilterContainer.appendChild(button);
   }
 }
+
+loadMoreBtn.addEventListener("click", () => {
+  upcomingVisibleCount += loadMoreStep;
+  render();
+});
 
 renderFilters();
 renderSessionFilters();

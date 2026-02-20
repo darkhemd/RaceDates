@@ -163,6 +163,26 @@ body {
   padding: 14px;
 }
 
+.load-more-wrap {
+  margin-top: 14px;
+  display: flex;
+  justify-content: center;
+}
+
+.load-more-btn {
+  border: 1px solid var(--line);
+  background: rgba(255, 255, 255, 0.08);
+  color: var(--text);
+  padding: 10px 16px;
+  border-radius: 10px;
+  cursor: pointer;
+  font-weight: 700;
+}
+
+.load-more-btn:hover {
+  background: rgba(255, 255, 255, 0.16);
+}
+
 @media (max-width: 640px) {
   .app {
     padding-top: 20px;
